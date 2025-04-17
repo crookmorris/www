@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "markdown-it-block-embed": "^0.0.3",
+    "markdown-it-image-figures": "^2.1.1",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module"
+}
