@@ -1,0 +1,20 @@
+<a href="https://visit-kendal.co.uk/">
+    <picture class="logo">
+        <source srcset="/assets/components/kendal-dark.png" media="(prefers-color-scheme:dark)">
+        <img src="/assets/components/kendal-light.png" alt="Made in Kendal">
+    </picture>
+</a>
+
+<style>
+    kendal-logo img {
+        display: inline-block;
+        width: 13.7em;
+        height: 2em;
+        min-width: 109px;
+        min-height: 16px;
+    }
+
+    kendal-logo a {
+        text-decoration: none;
+    }
+</style>

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/main.css" />
+		<link rel="stylesheet" :href="getBundleFileUrl('css')" webc:keep />
+    <title @raw="(()=>{if(!title){return 'Crook Morris';}else{return title+' - Crook Morris';}})()"></title>
+  </head>
+  <body>
+    <hr />
+    <under-construction></under-construction>
+    <crook-logo></crook-logo>
+    <main @html="content"></main>
+    <social-footer :@website="website"></social-footer>
+  </body>
+</html>

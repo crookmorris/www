@@ -1,0 +1,20 @@
+<a :href="href">
+    <picture class="logo">
+        <source srcset="/assets/components/instagram-dark.png" media="(prefers-color-scheme:dark)">
+        <img src="/assets/components/instagram-light.png" alt="See us on Instagram">
+    </picture>
+</a>
+
+<style>
+    instagram-link img {
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        min-width: 16px;
+        min-height: 16px;
+    }
+
+    instagram-link a {
+        text-decoration: none;
+    }
+</style>

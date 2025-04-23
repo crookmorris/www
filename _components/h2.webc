@@ -1,0 +1,15 @@
+<hr />
+<slot></slot>
+
+<style>
+    h2 {
+        padding: 1em 0;
+        text-align: center;
+        color: var(--b2-fg);
+        font-size: clamp(150%, 2vw, 36pt);
+    }
+
+    h2 hr {
+        margin: 1em 0;
+    }
+</style>

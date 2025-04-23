@@ -1,0 +1,17 @@
+<div>
+    Under construction!
+    <a href="https://www.crookmorris.org.uk/">Visit our official website</a>
+</div>
+
+<style>
+    under-construction div {
+        position: fixed;
+        bottom: 0;
+        background-color: #c00;
+        font-weight: bold;
+        text-align: center;
+        font-size: 8pt;
+        padding: 0.5em;
+        color: white;
+    }
+</style>

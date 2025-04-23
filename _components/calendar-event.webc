@@ -1,0 +1,58 @@
+<div class="info">
+    <div class="date">
+        <div @raw="day"></div>
+        <div class="big" @raw="date"></div>
+        <div @raw="month"></div>
+    </div>
+    <div class="venue">
+        <slot></slot>
+    </div>
+</div>
+
+<style>
+    calendar-event {
+        max-width: 60rem;
+        margin: auto;
+        padding: clamp(0rem,3vw,1rem);
+        display: flex;
+        flex-direction: column;
+    }
+
+    calendar-event .info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    calendar-event .date {
+        padding: 0.5em clamp(0.5rem,3vw,1rem);
+        width: 6em;
+        text-align: center;
+        height: fit-content;
+        color: white;
+        margin-right: clamp(0.5rem,3vw,1rem);
+    }
+
+    calendar-event:nth-child(even) .date {
+        background-color: var(--b1);
+    }
+
+    calendar-event:nth-child(odd) .date {
+        background-color: var(--b2);
+    }
+
+    calendar-event .date > * {
+        padding: 0.1em;
+    }
+
+    calendar-event .venue {
+        padding: 0.5em 0;
+        flex-grow: 1;
+        min-width: 50%;
+    }
+
+    calendar-event .big {
+        font-size: 200%;
+        font-weight: bold;
+    }
+</style>

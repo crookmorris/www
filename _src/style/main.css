@@ -39,12 +39,10 @@ html {
 
 body {
     --border-width: min(24px,2vw);
-    border-left: var(--border-width) solid var(--b1);
-    border-right: var(--border-width) solid var(--b2);
 }
 
 h1 {
-    padding: calc(5vw + 5vh) 0 1em 0;
+    padding: calc(2vw + 2vh) 0 1em 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,12 +60,7 @@ h1 {
     max-width: 30em;
 }
 
-h2 {
-    padding: 2em 0 1em 0;
-    text-align: center;
-    color: var(--b2-fg);
-    font-size: clamp(150%, 2vw, 36pt);
-}
+
 
 h3 {
     margin: auto;
@@ -85,10 +78,14 @@ dd + dt {
     margin-top: 1em;
 }
 
-p, dd, ul {
+p, dd, ul, .p {
     margin: auto;
     max-width: 45rem;
-    text-align: justify;
+    padding: 0rem;
+}
+
+main > p, footer > p, footer > .p {
+    padding: clamp(0.5rem,3vw,1rem);
 }
 
 dd {
@@ -108,6 +105,7 @@ figure, div.block-embed {
 
 figure img {
     max-width: 100%;
+    max-height: max(20rem,50vh);
 }
 
 figure:nth-child(even) img,
@@ -120,6 +118,8 @@ div.block-embed:nth-child(odd) iframe {
     border: 0.5rem solid var(--b2-dark);
 }
 
-footer {
-    padding: 2rem 0 5rem 0;
+hr {
+    border: 0px solid transparent;
+    border-top: 0.5rem solid var(--b1);
+    border-bottom: 0.5rem solid var(--b2);
 }

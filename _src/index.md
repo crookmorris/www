@@ -1,10 +1,8 @@
 ---
 layout: standard
-title: Crook Morris
 ---
 
-
-![Eight jolly dancers in a line on a sunny day. They wear white shirts, black trousers, maroon and green baldricks and socks, and straw hats decorated with flowers.](assets/lineup.jpg)
+![Eight jolly dancers in a line on a sunny day. They wear white shirts, black trousers, maroon and green baldricks and socks, and straw hats decorated with flowers.](assets/photos/lineup.jpg)
 
 Crook Morris is a mixed Morris side based in Kendal, Cumbria.
 We formed in 1981 as an off shoot from Crook Folk dance group. 
@@ -25,9 +23,27 @@ our musicians never miss out on a chance to join a session in a pub!
 
 ## Where to see us
 
-{% for event in events %}
-  - {{ event.date }} - {{ event.name }}
-{% endfor %}
+{% event 'Wednesday' '21' 'April' %}
+St George's day, The Birdcage, Kendal
+
+![St George's day poster](assets/posters/st-george.jpg)
+{% endevent %}
+
+{% event 'Wednesday' '21' 'April' %}
+
+Come and celebrate *St Geoge's* day.
+{% endevent %}
+
+{% event 'Wednesday' '21' 'April' %}
+Come and celebrate *St Geoge's* day.
+
+{% endevent %}
+
+{% event 'Wednesday' '21' 'April' %}
+
+Come and celebrate *St Geoge's* day.
+
+{% endevent %}
 
 ## Our dances
 
