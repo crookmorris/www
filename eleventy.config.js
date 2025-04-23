@@ -21,6 +21,12 @@ export default function(eleventyConfig) {
     eleventyConfig.setDataDirectory("_testdata");
   }
 
+  eleventyConfig.addShortcode("social-icons",
+    function() {
+      return '<social-icons>\n</social-icons>\n';
+    }
+  );
+
   eleventyConfig.addPairedShortcode("event",
     /*
       The newlines in this string are important
@@ -34,5 +40,5 @@ export default function(eleventyConfig) {
             +'">\n\n'+content
             +'\n\n</calendar-event>\n';
     }
-  )
+  );
 };

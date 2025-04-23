@@ -33,11 +33,11 @@
         margin-right: clamp(0.5rem,3vw,1rem);
     }
 
-    calendar-event:nth-child(even) .date {
+    calendar-event:nth-child(odd) .date {
         background-color: var(--b1);
     }
 
-    calendar-event:nth-child(odd) .date {
+    calendar-event:nth-child(even) .date {
         background-color: var(--b2);
     }
 
@@ -48,7 +48,8 @@
     calendar-event .venue {
         padding: 0.5em 0;
         flex-grow: 1;
-        min-width: 50%;
+        width: 20em;
+        min-width: min(20em,90vw);
     }
 
     calendar-event .big {

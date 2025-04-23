@@ -1,0 +1,11 @@
+<p>
+    <youtube-link href="https://www.youtube.com/@crookmorris240"></youtube-link>
+    <instagram-link href="https://www.instagram.com/crook_morris/"></instagram-link>
+    <facebook-link href="https://www.facebook.com/CrookMorrisKendal/"></facebook-link>
+</p>
+
+<style>
+    social-icons p > * + * {
+        padding-left: 0.5em;
+    }
+</style>

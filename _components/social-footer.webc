@@ -1,16 +1,11 @@
 <footer>
     <hr />
-    <div class="p icons">
-        <youtube-link href="https://www.youtube.com/@crookmorris240"></youtube-link>
-        <instagram-link href="https://www.instagram.com/crook_morris/"></instagram-link>
-        <facebook-link href="https://www.facebook.com/CrookMorrisKendal/"></facebook-link>
-    </div>
+    <social-icons></social-icons>
     <div class="p">
         <div class="grow">
             <small>
                 <span @raw="website.name"></span>
                 <span @raw="website.year"></span>.
-                <cc-inline webc:import="./cc-inline.webc"></cc-inline>
             </small>
         </div>
         <div>
@@ -22,10 +17,6 @@
 <style>
     social-footer footer {
         padding: 3rem 0 1rem 0;
-    }
-
-    social-footer .icons > * + * {
-        padding-left: 0.5em;
     }
 
     social-footer .p {
@@ -42,5 +33,9 @@
 
     social-footer .p>* {
         padding-top: 1em;
+    }
+
+    social-footer hr {
+        margin-bottom: 2em;
     }
 </style>

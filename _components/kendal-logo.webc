@@ -1,9 +1,13 @@
-<a href="https://visit-kendal.co.uk/">
-    <picture class="logo">
-        <source srcset="/assets/components/kendal-dark.png" media="(prefers-color-scheme:dark)">
-        <img src="/assets/components/kendal-light.png" alt="Made in Kendal">
-    </picture>
-</a>
+<small>
+    <a href="https://www.colourcountry.net/">Made</a>
+    in
+    <a class="spacer no-underline" href="https://visit-kendal.co.uk/">
+        <picture class="logo">
+            <source srcset="/assets/components/kendal-dark.png" media="(prefers-color-scheme:dark)">
+            <img src="/assets/components/kendal-light.png" alt="Made in Kendal">
+        </picture>
+    </a>
+</small>
 
 <style>
     kendal-logo img {
@@ -14,7 +18,7 @@
         min-height: 16px;
     }
 
-    kendal-logo a {
-        text-decoration: none;
+    kendal-logo .spacer {
+        margin-inline-start: 0.3em;
     }
 </style>
