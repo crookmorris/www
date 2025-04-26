@@ -1,0 +1,17 @@
+<div>
+    <small>
+        <a href="https://www.crookmorris.org.uk/members.html">Members' area</a>
+    </small>
+</div>
+
+<style>
+    members-login {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    members-login div {
+        margin-inline: 1em;
+    }
+</style>

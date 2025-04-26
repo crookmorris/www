@@ -1,0 +1,17 @@
+<slot></slot>
+
+<style>
+    grid-list ul {
+        margin: auto;
+        list-style-type: none;
+        columns: 15em auto;
+    }
+
+    grid-list ul li:nth-child(even) {
+        color: var(--b1-fg);
+    }
+    grid-list ul li:nth-child(odd) {
+        color: var(--b2-fg);
+    }
+
+</style>

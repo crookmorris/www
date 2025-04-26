@@ -9,7 +9,6 @@
     }
 
     h2 hr {
-        margin: 0.8em auto;
         max-width: 60rem;
     }
 </style>

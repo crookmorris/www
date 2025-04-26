@@ -1,13 +1,26 @@
 <footer>
     <hr />
-    <social-icons></social-icons>
-    <div class="p">
-        <div class="grow">
-            <small>
-                <span @raw="website.name"></span>
-                <span @raw="website.year"></span>.
-            </small>
+    <div class="flex">
+        <div>
+            <crook-logo></crook-logo>
         </div>
+        <div class="grow">
+            <social-icons></social-icons>
+            <p>
+                <small>
+                    <a href="/"><span @raw="website.name"></span></a>
+                    <span @raw="website.year"></span>.
+                </small>
+            </p>
+            <p>
+                <small>
+                    <a href="https://www.colourcountry.net/">
+                        Made in Kendal
+                    </a>
+                </small>
+            </p>    
+        </div>
+
         <div>
             <kendal-logo></kendal-logo>
         </div>
@@ -16,23 +29,25 @@
 
 <style>
     social-footer footer {
-        padding: 3rem 0 1rem 0;
+        margin-block: 3em;
     }
 
-    social-footer .p {
+    social-footer .flex {
+        max-width: 50rem;
+        margin: auto;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: end;
     }
 
+    social-footer .flex>* {
+        padding-block: 1rem;
+    }
+
     social-footer .grow {
         flex-grow: 1;
         padding-right: 1em;
-    }
-
-    social-footer .p>* {
-        padding-top: 1em;
     }
 
     social-footer hr {

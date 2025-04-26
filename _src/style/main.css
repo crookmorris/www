@@ -25,6 +25,7 @@ html {
     line-height: 140%;
     font-family: sans-serif;
     color: var(--fg);
+    --link-fg: #05b;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -69,7 +70,7 @@ h1 {
 h3 {
     margin: auto;
     max-width: 45rem;
-    padding: 1em 0 0.5em 0;
+    padding-block: 1em 0.5em;
 }
 
 dt {
@@ -85,11 +86,14 @@ dd + dt {
 p, dd, ul, .p {
     margin: auto;
     max-width: 45rem;
-    padding: 0rem;
 }
 
-main > p, footer > p, footer > .p {
+main > *, footer .flex {
     padding: clamp(0.5rem,3vw,1rem);
+}
+
+main > figure, main > div.block-embed, main > h2 {
+    padding: 0;
 }
 
 dd {

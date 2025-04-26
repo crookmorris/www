@@ -1,6 +1,4 @@
 <small>
-    <a href="https://www.colourcountry.net/">Made</a>
-    in
     <a class="spacer no-underline" href="https://visit-kendal.co.uk/">
         <picture class="logo">
             <source srcset="/assets/components/kendal-dark.png" media="(prefers-color-scheme:dark)">

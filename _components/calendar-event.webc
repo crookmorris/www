@@ -6,12 +6,13 @@
     </div>
     <div class="venue">
         <slot></slot>
+        <p class="tbc" @raw="tbc" webc:if="tbc"></p>
     </div>
 </div>
 
 <style>
     calendar-event {
-        max-width: 60rem;
+        max-width: 40rem;
         margin: auto;
         padding: clamp(0rem,3vw,1rem);
         display: flex;
@@ -25,7 +26,7 @@
     }
 
     calendar-event .date {
-        padding: 0.5em clamp(0.5rem,3vw,1rem);
+        padding: clamp(0.2rem,1.5vw,0.7rem);
         width: 6em;
         text-align: center;
         height: fit-content;
@@ -55,5 +56,13 @@
     calendar-event .big {
         font-size: 200%;
         font-weight: bold;
+    }
+
+    calendar-event .tbc {
+        color: red;
+    }
+
+    calendar-event figure img {
+        border: none !important;
     }
 </style>

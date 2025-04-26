@@ -10,9 +10,10 @@
     <title @raw="(()=>{if(!title){return 'Crook Morris';}else{return title+' - Crook Morris';}})()"></title>
   </head>
   <body>
+    <members-login></members-login>
     <hr />
     <under-construction></under-construction>
-    <crook-logo></crook-logo>
+    <crook-masthead></crook-masthead>
     <main @html="content"></main>
     <social-footer :@website="website"></social-footer>
   </body>
