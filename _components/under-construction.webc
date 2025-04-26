@@ -14,4 +14,8 @@
         padding: 0.5em;
         color: white;
     }
+
+    under-construction a {
+        color: white;
+    }
 </style>

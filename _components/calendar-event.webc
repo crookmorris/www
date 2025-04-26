@@ -59,7 +59,7 @@
     }
 
     calendar-event .tbc {
-        color: red;
+        color: var(--attention);
     }
 
     calendar-event figure img {
