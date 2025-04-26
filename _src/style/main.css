@@ -3,15 +3,9 @@ body, html, h1 {
     padding: 0;
 }
 
-.warning {
-    text-align: center;
-    font-weight: bold;
-    padding: 0.5em;
-    border-bottom: 0.5em solid #f00;
-}
-
 html {
     --missing: cyan;
+    --attention: #a00;
     --bg: #eee;
     --fg: #111;
     --link: #07b;
@@ -30,6 +24,7 @@ html {
 
 @media (prefers-color-scheme: dark) {
     html {
+        --attention: #fc0;
         --bg: #110006;
         --b1-fg: #a24;
         --b2-fg: #393;

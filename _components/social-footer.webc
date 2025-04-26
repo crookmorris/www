@@ -1,4 +1,3 @@
-<footer>
     <hr />
     <div class="flex">
         <div>
@@ -25,10 +24,9 @@
             <kendal-logo></kendal-logo>
         </div>
     </div>
-</footer>
 
 <style>
-    social-footer footer {
+    social-footer {
         margin-block: 3em;
     }
 
