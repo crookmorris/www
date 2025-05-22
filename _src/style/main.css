@@ -20,6 +20,7 @@ html {
     font-family: sans-serif;
     color: var(--fg);
     --link-fg: #05b;
+    scroll-behavior: smooth;
 }
 
 @media (prefers-color-scheme: dark) {

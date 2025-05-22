@@ -27,6 +27,12 @@ export default function(eleventyConfig) {
     }
   );
 
+  eleventyConfig.addShortcode("anchor",
+    function(name) {
+      return '<a name="'+name+'"></a>';
+    }
+  );
+
   eleventyConfig.addPairedShortcode("grid-list",
     function(content) {
       return '<grid-list>\n\n'+content+'\n\n</grid-list>\n';

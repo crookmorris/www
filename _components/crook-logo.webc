@@ -2,7 +2,7 @@
     <a class="spacer no-underline" href="/">
         <picture class="logo">
             <source srcset="/assets/components/crook-dark.png" media="(prefers-color-scheme:dark)">
-            <img src="/assets/components/crook-light.png" alt="Crook Morris">
+            <img src="/assets/components/crook-light.png" alt="Crook Morris" :style="'height: '+(size || '6rem')">
         </picture>
     </a>
 </small>
@@ -10,7 +10,6 @@
 <style>
     crook-logo img {
         display: inline-block;
-        height: 6rem;
     }
 
     crook-logo .spacer {

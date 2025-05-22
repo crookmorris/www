@@ -1,0 +1,88 @@
+<div class="fixed-height">
+    <crook-logo size="3rem"></crook-logo>
+</div>
+<div class="fixed-height">
+    <label for="burger" tabindex="0">≡</label>
+</div>
+<div>
+    <input id="burger" type="checkbox" />
+    <ul>
+        <li><a class="plain" href="/">Home</a></li>
+        <li><a class="plain" href="/about-us/">About us</a></li>
+        <li><a class="plain" href="/#book-us">Book us</a></li>
+        <li><a class="plain" href="/#get-involved">Get involved</a></li>
+    </ul>
+</div>
+<div class="grow"></div>
+<div class="fixed-height right">
+    <a href="https://www.crookmorris.org.uk/members.html">Members</a>
+</div>
+
+<style>
+    nav-bar {
+        margin: 0.5rem 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: top;
+        gap: 1rem;
+    }
+
+    nav-bar>div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    nav-bar .right {
+        text-align: right;
+    }
+
+    nav-bar .fixed-height {
+        height: 3rem;
+    }
+
+    nav-bar ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0.7rem 1rem;
+    }
+
+    nav-bar input, nav-bar label {
+        display: none;
+    }
+
+    nav-bar li {
+        margin-inline-end: 2vw;
+    }
+
+    nav-bar .grow {
+        flex-grow: 1;
+    }
+
+    @media (max-width: 720px) {
+        nav-bar ul {
+            display: block;
+            border-left: 0.2rem solid var(--b1);
+        }
+
+        nav-bar li {
+            margin-inline: 0;
+        }
+
+        nav-bar label {
+            display: block;
+            font-size: 2rem;
+        }
+        
+        nav-bar input:not(:checked)+ul {
+            display: none;
+        }
+    }
+
+    a.plain {
+        text-decoration: none;
+        color: inherit;
+    }
+</style>

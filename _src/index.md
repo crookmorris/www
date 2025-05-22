@@ -14,20 +14,6 @@ You can also find us on social media:
 
 ## Where to see us
 
-{% event 'Weekend' '2 - 5' 'May' %}
-[Upton Folk Festival](https://uptonfolk.org/), Upton-upon-Severn, Worcestershire
-
-![Upton Folk Festival badge](/assets/badges/upton-folk-festival.png)
-{% endevent %}
-
-{% event 'Monday' '12' 'May' %}
-Evening dance-out, [The Hare and Hounds](https://www.hareandhoundslevens.co.uk/), Levens
-{% endevent %}
-
-{% event 'Monday' '19' 'May' %}
-Evening dance-out, [The Greyhound](https://thegreyhoundhalton.co.uk/), Halton
-{% endevent %}
-
 {% event 'Wednesday' '25' 'June' %}
 Evening dance-out, [Heft](https://hefthighnewton.co.uk/), High Newton
 {% endevent %}
@@ -44,6 +30,7 @@ Evening dance-out, Sedbergh
 [Shap Farmers' Market](https://www.theoldcourthouse.org/events/market/), The Old Courthouse, Shap
 {% endevent %}
 
+{% anchor 'book-us' %}
 ## Book us for your event
 
 We are happy to come and dance at local pubs, events and festivals during the summer season (roughly April until September.) We're lucky to have a fair number of dancers and musicians but it's always best to get us booked in early!
@@ -53,6 +40,7 @@ We are happy to come and dance at local pubs, events and festivals during the su
 
 ![Crook in Border morris rags, brandishing sticks](/assets/photos/border-sticks.jpg)
 
+{% anchor 'get-involved' %}
 ## Get involved
 
 We are a friendly and inclusive side and welcome all new faces!

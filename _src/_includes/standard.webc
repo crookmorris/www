@@ -11,7 +11,7 @@
   </head>
   <body>
     <header>
-      <members-login></members-login>
+      <nav-bar></nav-bar>
       <hr />
       <under-construction></under-construction>
       <crook-masthead></crook-masthead>
