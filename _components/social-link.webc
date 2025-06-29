@@ -1,0 +1,43 @@
+<a :href="href">
+    <picture class="logo youtube" webc:if="service == 'YouTube'">
+        <source srcset="/assets/components/youtube-dark.png" media="(prefers-color-scheme:dark)">
+        <img src="/assets/components/youtube-light.png" alt="Watch us on YouTube">
+    </picture>
+    <picture class="logo" webc:if="service == 'Instagram'">
+        <source srcset="/assets/components/instagram-dark.png" media="(prefers-color-scheme:dark)">
+        <img src="/assets/components/instagram-light.png" alt="See us on Instagram">
+    </picture>
+    <picture class="logo" webc:if="service == 'Facebook'">
+        <source srcset="/assets/components/facebook-dark.png" media="(prefers-color-scheme:dark)">
+        <img src="/assets/components/facebook-light.png" alt="Follow us on Facebook">
+    </picture>
+
+    <span @text="service" webc:if="!!text"></span>
+</a>
+
+<style>
+    social-link img {
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        min-width: 23px;
+        min-height: 16px;
+        margin-inline: 0.5em;
+    }
+
+    /* The YouTube icon isn't square */
+    social-link picture.youtube img {
+        width: 2.88em;
+    }
+
+    social-link a {
+        text-decoration: none;
+        display: inline-flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    social-link a span {
+        text-decoration: underline;
+    }
+</style>

@@ -6,7 +6,7 @@ We are an assorted group of people with various interests as well as morris danc
 
 As well as dancing with Crook, several of our members also dance with other teams. It's not just Morris dancing either, Clog Dancing, Appalachian Dancing and Garland Dancing are all part of their repertoire.
 
-We also enjoy ceilidh dancing, where we can really let our hair down, and our musicians never miss out on a chance to join a session in a pub! 
+We also enjoy ceilidh dancing, where we can really let our hair down, and our musicians never miss out on a chance to join a session in a pub!
 
 ### Why Crook?
 
@@ -53,7 +53,7 @@ Border dances originate from the Welsh Marches of Shropshire, Herefordshire and 
 
 ### Rapper
 
-Rapper dancing comes from the North East of England. Five dancers with flexible swords - fast and furious! 
+Rapper dancing comes from the North East of England. Five dancers with flexible swords - fast and flowing! 
 
 @[youtube](https://www.youtube.com/watch?v=4yeMeuvqaT4)
 
@@ -63,18 +63,22 @@ Mumming plays where the dragon is killed and Saint George always wins - in spite
 
 @[youtube](https://www.youtube.com/watch?v=jFUfFKP4m4U)
 
-## Statements?
+## More info
 
-### Inclusivity
+### Inclusion
 
-We are proud to be an inclusive organisation. Membership is and always will be open to all, subject to a minimum age limit. Furthermore, we are proactive in standing against all forms of discrimination, both in the Morris world and in all sectors of our society. We want people from all backgrounds to enjoy our dancing, and not made to feel unwelcome or uncomfortable by any element of a performance or our community. 
+We are proud to be an inclusive organisation. We want people from all backgrounds to enjoy our 
+dancing, and membership is open to all, subject to a minimum age limit.
 
-### Safeguarding
-
-?
+Furthermore, we stand against all forms of discrimination, both in the Morris world and in all sectors 
+of our society. Nobody should be made to feel unwelcome, unsafe or uncomfortable by any element of our
+performances or our community. To raise an issue, however small, [contact our 
+squire](mailto:crook.morris.squire@gmail.com) in confidence.
 
 ### Publicity
 
-We’re very happy for people to use photographs of our side but only after permission has been granted by Crook Morris. Please [contact us](mailto:publicity@crookmorris.org.uk) for further details.
+We're generally happy for people to share photographs of Crook dancing for personal purposes. For any 
+other usage, please [contact us](mailto:crook.morris.squire@gmail.com) with details.
 
-As we supply public entertainment, photographs of the side on this site or in our publicity may include members of the public, including children. If you have a concern about any image we use, please contact us with the details and we will replace it.
+As we supply public entertainment, photographs of the side on this site or in our publicity may 
+include members of the public, including children. Please get in touch if you have any concerns.

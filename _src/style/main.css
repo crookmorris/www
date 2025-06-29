@@ -27,8 +27,8 @@ html {
     html {
         --attention: #fc0;
         --bg: #110006;
-        --b1-fg: #a24;
-        --b2-fg: #393;
+        --b1-fg: #c24;
+        --b2-fg: #3a3;
         --fg: #fff;
         --link-fg: #09f;
     }
@@ -64,6 +64,7 @@ h1 {
 }
 
 h3 {
+    text-align: center;
     margin: auto;
     max-width: 45rem;
     padding-block: 1em 0.5em;
@@ -115,11 +116,13 @@ figure img {
 figure:nth-child(even) img,
 div.block-embed:nth-child(even) iframe {
     border: 0.5rem solid var(--b1-dark);
+    border-radius: 0.2rem;
 }
 
 figure:nth-child(odd) img,
 div.block-embed:nth-child(odd) iframe {
     border: 0.5rem solid var(--b2-dark);
+    border-radius: 0.2rem;
 }
 
 hr {

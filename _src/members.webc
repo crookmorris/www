@@ -1,0 +1,50 @@
+---
+layout: standard
+---
+<form method='post' class='form_login' name='form_login'  action='/login.php' >
+<p>
+    <label for='email' >ID</label>
+    <input type='text' placeholder='Name or email address' name='email' class='email'>
+</p>
+<p>
+    <label for='psw' >Password</label>
+    <input type='password' placeholder='Enter Password' name='psw' class='psw' >
+</p>
+<p class="buttons">
+    <button type='submit' name='btn_go' class="btn_styleRGreen">Login</button>	
+    <button type='submit' name='btn_pwd' class="btn_styleCBlue">Forgotten password</button>	
+    <button type='submit' name='btn_cancel' class="btn_styleLRed">Cancel</button>
+</p>
+</form>
+
+<style>
+    form.form_login {
+        margin: auto;
+        max-width: 30rem;
+    }
+
+    form.form_login p {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem;
+    }
+
+    form.form_login p.buttons {
+        justify-content: center;
+    }
+
+    form.form_login label {
+        min-width: 6em;
+    }
+
+    form.form_login input {
+        width: 50%;
+        flex-grow: 1;
+    }
+
+    form.form_login button {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+    }
+
+</style>

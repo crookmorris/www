@@ -15,7 +15,7 @@
 </div>
 <div class="grow"></div>
 <div class="fixed-height right">
-    <a href="https://www.crookmorris.org.uk/members.html">Members</a>
+    <a href="/members/">Members</a>
 </div>
 
 <style>

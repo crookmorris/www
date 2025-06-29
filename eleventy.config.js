@@ -15,15 +15,18 @@ export default function(eleventyConfig) {
   eleventyConfig.amendLibrary("md", mdLib => mdLib.use(implicitFigures));
   eleventyConfig.amendLibrary("md", mdLib => mdLib.use(videoEmbeds));
 
+  eleventyConfig.setDataDirectory("_data");
+  /*
   if (process.env.ELEVENTY_ENV_TYPE == "prod") {
     eleventyConfig.setDataDirectory("_data");
   } else {
     eleventyConfig.setDataDirectory("_testdata");
   }
+  */
 
   eleventyConfig.addShortcode("social-icons",
     function() {
-      return '<social-icons>\n</social-icons>\n';
+      return '\n\n<social-icons text="included">\n</social-icons>\n\n';
     }
   );
 

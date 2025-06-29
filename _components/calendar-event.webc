@@ -27,6 +27,7 @@
 
     calendar-event .date {
         padding: clamp(0.2rem,1.5vw,0.7rem);
+        border-radius: 0.2rem;
         width: 6em;
         text-align: center;
         height: fit-content;
