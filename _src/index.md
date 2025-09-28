@@ -38,7 +38,7 @@ We are happy to come and dance at local pubs, events and festivals during the su
 
 [Contact our squire](mailto:crook.morris.squire@gmail.com) to make an enquiry.
 
-![Crook Morris wearing Border-style rags, brandishing sticks](/assets/photos/border-sticks.jpg)
+![Crook Morris wearing Border-style rags, brandishing sticks](assets/photos/border-sticks.jpg)
 
 {% anchor 'get-involved' %}
 ## Get involved
@@ -54,4 +54,4 @@ If you'd like to try out morris or rapper dancing, look out for our taster day! 
 
 [Send us a message](mailto:crook.morris.squire@gmail.com) to find out more.
 
-![Crook Morris dancing a Cotswold dance with waving white handkerchiefs](/assets/photos/hankies.jpg)
+![Crook Morris dancing a Cotswold dance with waving white handkerchiefs](assets/photos/hankies.jpg)
