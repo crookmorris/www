@@ -42,7 +42,6 @@ Our repertoire includes dances from these Cotswold traditions:
 * Ilmington
 * Lichfield
 * Oddington
-* Sherborne
 {% endgrid-list %}
 
 ### Border
