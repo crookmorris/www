@@ -1,5 +1,5 @@
 ---
-layout: standard
+layout: homepage
 ---
 
 ![Seven jolly dancers and three musicians standing in a line on top of a Cumbrian fell soon after sunrise. They wear white shirts, black trousers, maroon and green baldricks and socks, and straw hats decorated with flowers.](assets/photos/lineup-scout-scar.jpg)

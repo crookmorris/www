@@ -17,6 +17,14 @@ layout: standard
 </p>
 </form>
 
+<h2 webc:raw>Resources for members</h2>
+
+<ul>
+    <li><a href="/resources/organisation/">How the side is organised</li>
+    <li><a href="/resources/kit/">Kit list and recommendations</li>
+    <li><a href="/assets/documents/Crook_Constitution.pdf">Crook Morris constitution (PDF)</a></li>
+</ul>
+
 <style>
     form.form_login {
         margin: auto;

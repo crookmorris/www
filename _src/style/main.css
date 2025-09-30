@@ -65,6 +65,7 @@ h1 {
 
 h3 {
     text-align: center;
+    color: var(--b1-fg);
     margin: auto;
     max-width: 45rem;
     padding-block: 1em 0.5em;
@@ -133,4 +134,14 @@ hr {
 
 a.no-underline {
     text-decoration: none;
+}
+
+ul>li:nth-child(even)>em {
+     color: var(--b1-fg);
+     font-weight: bold;
+}
+
+ul>li:nth-child(odd)>em {
+    color: var(--b2-fg);
+     font-weight: bold;
 }

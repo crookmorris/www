@@ -15,7 +15,7 @@
     <header>
       <nav-bar></nav-bar>
       <hr />
-      <crook-masthead size="small"></crook-masthead>
+      <crook-masthead></crook-masthead>
     </header>
     <main @html="content"></main>
     <footer>

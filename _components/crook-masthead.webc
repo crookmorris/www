@@ -20,4 +20,8 @@
     crook-masthead h1 a {
         text-decoration: none;
     }
+
+    crook-masthead[size='small'] h1 img {
+        max-height: min(4rem,10vh);
+    }
 </style>
