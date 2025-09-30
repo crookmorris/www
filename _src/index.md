@@ -14,7 +14,8 @@ You can also find us on social media:
 ## Where to see us this season
 
 {% comment %}
-   ## Event help for editors
+```
+Event help for editors
    
    First line:
    {% event 'yyyy-mm-dd' %}
@@ -40,6 +41,7 @@ You can also find us on social media:
    {% endevent %}
 
    ## That's it!
+```
 {% endcomment %}
 
 {% event '2025-10-25' %}
@@ -76,9 +78,11 @@ We are a friendly and inclusive side and welcome all new faces!
 
 We practice on Monday nights from October until March, then during the summer we perform at local pubs, events and festivals.
 
-{% comment %} -- reinstate/update this in the summer
+{% comment %} -- this is hidden, reinstate/update it in the summer
+
 If you'd like to try out morris or rapper dancing, look out for our taster day! This year we'll be gathering in the
 [Abbot Hall Social Centre](https://www.openstreetmap.org/#map=18/54.323425/-2.746244), Dowkers Lane, Kendal LA9 4DN on **Sunday 28th September**. All are welcome to come and have a go with no commitment.
+
 {% endcomment %}
 
 [Send us a message](mailto:crook.morris.squire@gmail.com) to find out more.
