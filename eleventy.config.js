@@ -16,13 +16,6 @@ export default function(eleventyConfig) {
   eleventyConfig.amendLibrary("md", mdLib => mdLib.use(videoEmbeds));
 
   eleventyConfig.setDataDirectory("_data");
-  /*
-  if (process.env.ELEVENTY_ENV_TYPE == "prod") {
-    eleventyConfig.setDataDirectory("_data");
-  } else {
-    eleventyConfig.setDataDirectory("_testdata");
-  }
-  */
 
   eleventyConfig.addShortcode("social-icons",
     function() {
@@ -48,16 +41,19 @@ export default function(eleventyConfig) {
       so that the markdown parser runs on the content
       and all tags are closed correctly.
     */
-    function(content, day, date, month, tbc) {
-      let tbcattr='';
-      if (tbc) {
-        tbcattr='" tbc="'+tbc;
+    function(content, date, note, override) {
+      let note_attr='';
+      if (note) {
+        note_attr=' note="'+note+'"';
       }
-      return '<calendar-event day="'+day
-            +'" date="'+date
-            +'" month="'+month
-            +tbcattr
-            +'">\n\n'+content
+      let override_attr='';
+      if (override) {
+        override_attr=' override="'+override+'"';
+      }
+      return '<calendar-event date="'+date+'"'
+            + override_attr
+            + note_attr
+            +'>\n\n'+content
             +'\n\n</calendar-event>\n';
     }
   );

@@ -1,14 +1,34 @@
 <div class="info">
-    <div class="date">
-        <div @raw="day"></div>
-        <div class="big" @raw="date"></div>
-        <div @raw="month"></div>
+    <div class="date" webc:if="override">
+        <div @raw="override.split(' ')[0]"></div>
+        <div class="big" @raw="override.split(' ')[1]"></div>
+        <div @raw="override.split(' ')[2]"></div>
+    </div>
+    <div class="date" webc:elseif="date">
+        <div @raw="['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][new Date(date).getDay()]"></div>
+        <div class="big" @raw="new Date(date).getDate()"></div>
+        <div @raw="['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][new Date(date).getMonth()]"></div>
+    </div>
+    <div class="date" webc:else>
+        ?
     </div>
     <div class="venue">
         <slot></slot>
-        <p class="tbc" @raw="tbc" webc:if="tbc"></p>
+        <p class="note" @raw="note" webc:if="note"></p>
     </div>
 </div>
+
+<script>
+    // Remove events that have already happened
+    document.addEventListener("DOMContentLoaded", function() {
+        let today = new Date();
+        this.querySelectorAll("calendar-event").forEach((e) => {
+            if (today > new Date(e.getAttribute("date"))) {
+                e.parentElement.removeChild(e);
+            };
+        })
+    });
+</script>
 
 <style>
     calendar-event {
@@ -59,7 +79,7 @@
         font-weight: bold;
     }
 
-    calendar-event .tbc {
+    calendar-event .note {
         color: var(--attention);
     }
 

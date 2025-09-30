@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" webc:keep>    <link rel="stylesheet" :href="getBundleFileUrl('css')" webc:keep />
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" webc:keep>
+    <link rel="stylesheet" :href="getBundleFileUrl('css')" webc:keep />
+    <script :src="getBundleFileUrl('js')" webc:keep></script>
     <link rel="stylesheet" href="../style/main.css" />
     <title @raw="(()=>{if(!title){return 'Crook Morris';}else{return title+' - Crook Morris';}})()"></title>
   </head>

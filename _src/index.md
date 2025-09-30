@@ -13,7 +13,36 @@ You can also find us on social media:
 
 ## Where to see us this season
 
-{% event 'Saturday' '25' 'October' 'Times tbc'%}
+{% comment %}
+   ## Event help for editors
+   
+   First line:
+   {% event 'yyyy-mm-dd' %}
+       - for a one day event
+   {% event 'yyyy-mm-dd' 'note' %}
+       - for a one day event with note (e.g. "tbc")
+   {% event 'yyyy-mm-dd' '' 'Special BIG date' %}
+       - for a multi day event
+         or if for some other reason you need to show a different date 
+         (in this case yyyy-mm-dd should be the last day of the event
+         so it can be hidden automatically when the event us over)
+   {% event 'yyyy-mm-dd' 'note' 'Special BIG date' %}
+       - for a multi day event with note
+
+   Next lines: any markdown like the rest of the page.
+   This is usually a link to the venue and a short description.
+   You can also use images, with
+   ![alt text](http://image link/)
+   this should be on its own line.
+   Upload images somewhere in the assets/ folder.
+   
+   Last line:
+   {% endevent %}
+
+   ## That's it!
+{% endcomment %}
+
+{% event '2025-10-25' %}
 [Shap Farmers' Market](https://www.theoldcourthouse.org/events/market/), The Old Courthouse, Shap
 {% endevent %}
 
@@ -23,11 +52,11 @@ Over the winter we'll be busy practicing and learning new dances to bring you in
 
 New events will be added to this list as we organise them!
 
-{% event '' 'tbc' '' ''%}
+{% event '2026-01-17' %}
 **Wassail** at The Row, Lyth Valley, and the Black Labrador, Underbarrow
 {% endevent %}
 
-{% event '' '1&ndash;4' 'May' ''%}
+{% event '2026-05-04' '' 'Weekend 1&ndash;4 May' %}
 [Upton Folk Festival](https://uptonfolk.org/), Upton-upon-Severn
 {% endevent %}
 
@@ -47,10 +76,10 @@ We are a friendly and inclusive side and welcome all new faces!
 
 We practice on Monday nights from October until March, then during the summer we perform at local pubs, events and festivals.
 
-<!--
+{% comment %} -- reinstate/update this in the summer
 If you'd like to try out morris or rapper dancing, look out for our taster day! This year we'll be gathering in the
 [Abbot Hall Social Centre](https://www.openstreetmap.org/#map=18/54.323425/-2.746244), Dowkers Lane, Kendal LA9 4DN on **Sunday 28th September**. All are welcome to come and have a go with no commitment.
--->
+{% endcomment %}
 
 [Send us a message](mailto:crook.morris.squire@gmail.com) to find out more.
 
