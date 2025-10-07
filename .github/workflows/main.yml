@@ -30,3 +30,13 @@ jobs:
           port: ${{ secrets.HOSTINGER_PORT }}
           source: _site
           target: incoming
+          rm: true
+
+      - name: Move replacement files into public_html
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.HOSTINGER_HOST }}
+          username: ${{ secrets.HOSTINGER_USER }}
+          key: ${{ secrets.HOSTINGER_PRIVATE_KEY }}
+          port: ${{ secrets.HOSTINGER_PORT }}
+          script: replace.sh
