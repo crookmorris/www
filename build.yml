@@ -1,7 +1,7 @@
 name: Build
 
 on:
-  pull_request:
+  push:
     branches: ['main']
 
 jobs:
@@ -21,9 +21,9 @@ jobs:
       - name: Copy artifact to server
         uses: appleboy/scp-action@v1
         with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.KEY }}
-          port: ${{ secrets.PORT }}
+          host: ${{ secrets.HOSTINGER_HOST }}
+          username: ${{ secrets.HOSTINGER_USER }}
+          key: ${{ secrets.HOSTINGER_PRIVATE_KEY }}
+          port: ${{ secrets.HOSTINGER_PORT }}
           source: _site
           target: incoming
