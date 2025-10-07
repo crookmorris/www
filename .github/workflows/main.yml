@@ -15,6 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install dependencies
+        run: npm i
+
       - name: Run build
         run: npx @11ty/eleventy
 
