@@ -39,4 +39,4 @@ jobs:
           username: ${{ secrets.HOSTINGER_USER }}
           key: ${{ secrets.HOSTINGER_PRIVATE_KEY }}
           port: ${{ secrets.HOSTINGER_PORT }}
-          script: replace.sh
+          script: /home/u112729377/replace.sh
