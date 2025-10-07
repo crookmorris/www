@@ -8,8 +8,8 @@ If you have write access, you can edit pages in your web browser
 * find the edit (pencil) button above the file contents, right hand side
 * select `Edit in place`
 * edit, and then `Commit changes`
-* wait a minute or so and check your changes [on statichost](https://crookmorris-www.statichost.eu/) 
-* Send Dave a message to update the live site (this step is hopefully temporary!)
+* Now github will build the site with your changes in. Go to [the actions tab](https://github.com/crookmorris/www/actions) to see progress if you like. 
+* After a minute or so your changes should be live.
 
 Here is a direct link to [edit the front page](https://github.com/crookmorris/www/edit/main/_src/index.md)
 
