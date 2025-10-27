@@ -48,6 +48,10 @@ Event help for editors
 [Shap Farmers' Market](https://www.theoldcourthouse.org/events/market/), The Old Courthouse, Shap
 {% endevent %}
 
+ {% event '2025-12-10' %}
+ [The Smithy Inn with Kendal Revellers](https://www.smithyinn.co.uk/)), The Smithy Inn, Holme
+{% endevent %}
+ 
 Over the winter we'll be busy practicing and learning new dances to bring you in 2026.
 
 ## Where to see us in 2026
