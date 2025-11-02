@@ -49,7 +49,7 @@ Event help for editors
 {% endevent %}
 
  {% event '2025-12-6' 'Sold Out' %}
- [Crook Christmas Ceilidh], Kendal Parish Hall, Doors 7:15pm for 7:30pm
+ **Crook Christmas Ceilidh**, Kendal Parish Hall, Doors 7:15pm for 7:30pm
 {% endevent %}
 
  {% event '2025-12-10' %}
