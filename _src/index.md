@@ -48,8 +48,12 @@ Event help for editors
 [Shap Farmers' Market](https://www.theoldcourthouse.org/events/market/), The Old Courthouse, Shap
 {% endevent %}
 
+ {% event '2025-12-6' 'Sold Out' %}
+ [Crook Christmas Ceilidh], Kendal Parish Hall, Doors 7:15pm for 7:30pm
+{% endevent %}
+
  {% event '2025-12-10' %}
- [The Smithy Inn with Kendal Revellers](https://www.smithyinn.co.uk/)), The Smithy Inn, Holme
+ [The Smithy Inn with Kendal Revellers](https://www.smithyinn.co.uk/), Holme,  LA6 1PS
 {% endevent %}
  
 Over the winter we'll be busy practicing and learning new dances to bring you in 2026.
