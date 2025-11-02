@@ -48,7 +48,7 @@ Event help for editors
 [Shap Farmers' Market](https://www.theoldcourthouse.org/events/market/), The Old Courthouse, Shap
 {% endevent %}
 
- {% event '2025-12-6' 'Sold Out' %}
+ {% event '2025-12-6' 'SOLD OUT' %}
  **Crook Christmas Ceilidh**, Kendal Parish Hall, Doors 7:15pm for 7:30pm
 {% endevent %}
 
