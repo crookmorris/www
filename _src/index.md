@@ -66,6 +66,10 @@ New events will be added to this list as we organise them!
 **Wassail** at The Row, Lyth Valley, and the Black Labrador, Underbarrow
 {% endevent %}
 
+{% event '2026-03-21' %}
+**Spring Fling Ceilidh**, Kendal Parish Hall, Doors 7:15pm for 7:30pm, Contact blackhat.martyn@gmail.com for tickets
+{% endevent %}
+
 {% event '2026-05-04' '' 'Weekend 1&ndash;4 May' %}
 [Upton Folk Festival](https://uptonfolk.org/), Upton-upon-Severn
 {% endevent %}
