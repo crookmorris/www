@@ -8,10 +8,10 @@ layout: standard
 </p>
 <p>
     <label for='psw' >Password</label>
-    <input type='password' placeholder='Enter Password' name='psw' class='psw' >
+    <input type='password' name='psw' class='psw' >
 </p>
 <p class="buttons">
-    <button type='submit' name='btn_go' class="btn_styleRGreen">Login</button>	
+    <button type='submit' name='btn_go' class="btn_styleRGreen">Login</button>
     <button type='submit' name='btn_pwd' class="btn_styleCBlue">Forgotten password</button>	
     <button type='submit' name='btn_cancel' class="btn_styleLRed">Cancel</button>
 </p>
@@ -23,6 +23,8 @@ layout: standard
     <li><a href="/resources/organisation/">How the side is organised</li>
     <li><a href="/resources/kit/">Kit list and recommendations</li>
     <li><a href="/assets/documents/Crook_Constitution.pdf">Crook Morris constitution (PDF)</a></li>
+    <li><a href="/assets/documents/Repertoire.pdf">Full dance repertoire list (updated January 2026) (PDF)</a></li>
+    <!--<li><a href="/assets/documents/Dance_Core_Traditions.pdf">Dance notation: core traditions (updated November 2025) (PDF)</a></li>-->
 </ul>
 
 <style>
@@ -35,6 +37,7 @@ layout: standard
         display: flex;
         flex-wrap: wrap;
         margin: 1rem;
+        align-items: baseline;
     }
 
     form.form_login p.buttons {
@@ -48,6 +51,8 @@ layout: standard
     form.form_login input {
         width: 50%;
         flex-grow: 1;
+        font-size: larger;
+        padding: 0.3rem;
     }
 
     form.form_login button {

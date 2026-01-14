@@ -26,7 +26,7 @@ Event help for editors
        - for a multi day event
          or if for some other reason you need to show a different date 
          (in this case yyyy-mm-dd should be the last day of the event
-         so it can be hidden automatically when the event us over)
+         so it can be hidden automatically when the event is over)
    {% event 'yyyy-mm-dd' 'note' 'Special BIG date' %}
        - for a multi day event with note
 
