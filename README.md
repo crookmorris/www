@@ -1,6 +1,7 @@
 # Crook Web site
 
 This is the source for the Crook website.
+Everything on here is publicly accessible at https://www.crookmorris.org.uk/ (and here)
 
 If you have write access, you can edit pages in your web browser
 
