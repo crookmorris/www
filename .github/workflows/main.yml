@@ -47,6 +47,6 @@ jobs:
           host: ${{ secrets.DRAWK_CAB_HOST }}
           username: www
           key: ${{ secrets.DRAWK_CAB_PRIVATE_KEY }}
-          source: _site
+          source: _site/*
           target: /var/www/crookmorris
           rm: true
