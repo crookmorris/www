@@ -21,7 +21,7 @@ jobs:
       - name: Run build
         run: npx @11ty/eleventy
 
-      - name: Copy artifact to server
+      - name: Copy to Hostinger
         uses: appleboy/scp-action@v1
         with:
           host: ${{ secrets.HOSTINGER_HOST }}
@@ -40,3 +40,13 @@ jobs:
           key: ${{ secrets.HOSTINGER_PRIVATE_KEY }}
           port: ${{ secrets.HOSTINGER_PORT }}
           script: /home/u112729377/replace.sh
+
+      - name: Copy to drawk.cab
+        uses: appleboy/scp-action@v1
+        with:
+          host: ${{ secrets.DRAWK_CAB_HOST }}
+          username: www
+          key: ${{ secrets.DRAWK_CAB_PRIVATE_KEY }}
+          source: _site
+          target: /var/www/crookmorris
+          rm: true
