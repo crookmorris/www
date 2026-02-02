@@ -1,27 +1,13 @@
 ---
 layout: standard
 ---
-<form method='post' class='form_login' name='form_login'  action='/login.php' >
-<p>
-    <label for='email' >ID</label>
-    <input type='text' placeholder='Name or email address' name='email' class='email'>
-</p>
-<p>
-    <label for='psw' >Password</label>
-    <input type='password' name='psw' class='psw' >
-</p>
-<p class="buttons">
-    <button type='submit' name='btn_go' class="btn_styleRGreen">Login</button>
-    <button type='submit' name='btn_pwd' class="btn_styleCBlue">Forgotten password</button>	
-    <button type='submit' name='btn_cancel' class="btn_styleLRed">Cancel</button>
-</p>
-</form>
 
 <h2 webc:raw>Resources for members</h2>
 
 <ul>
-    <li><a href="/resources/organisation/">How the side is organised</li>
-    <li><a href="/resources/kit/">Kit list and recommendations</li>
+    <li><a href="https://morrisbook.co.uk/crook-morris/availability">Online tick sheet (Morrisbook, login required)</a></li>
+    <li><a href="/resources/organisation/">How the side is organised</a></li>
+    <li><a href="/resources/kit/">Kit list and recommendations</a></li>
     <li><a href="/assets/documents/Crook_Constitution.pdf">Crook Morris constitution (PDF)</a></li>
     <li><a href="/assets/documents/Repertoire.pdf">Full dance repertoire list (updated January 2026) (PDF)</a></li>
     <!--<li><a href="/assets/documents/Dance_Core_Traditions.pdf">Dance notation: core traditions (updated November 2025) (PDF)</a></li>-->
