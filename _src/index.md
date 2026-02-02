@@ -44,37 +44,8 @@ Event help for editors
 ```
 {% endcomment %}
 
-{% event '2025-10-25' %}
-[Shap Farmers' Market](https://www.theoldcourthouse.org/events/market/), The Old Courthouse, Shap
-{% endevent %}
+{% morrisbook-events %}
 
- {% event '2025-12-6' 'SOLD OUT' %}
- **Crook Christmas Ceilidh**, Kendal Parish Hall, Doors 7:15pm for 7:30pm
-{% endevent %}
-
- {% event '2025-12-10' %}
- [The Smithy Inn with Kendal Revellers](https://www.smithyinn.co.uk/), Holme,  LA6 1PS
-{% endevent %}
- 
-Over the winter we'll be busy practicing and learning new dances to bring you in 2026.
-
-## Where to see us in 2026
-
-New events will be added to this list as we organise them!
-
-{% event '2026-01-17' %}
-**Wassail** at The Row, Lyth Valley, and the Black Labrador, Underbarrow
-{% endevent %}
-
-{% event '2026-03-21' %}
-**Spring Fling Ceilidh**, Kendal Parish Hall, Doors 7:15pm for 7:30pm, Contact blackhat.martyn@gmail.com for tickets
-{% endevent %}
-
-{% event '2026-05-04' '' 'Weekend 1&ndash;4 May' %}
-[Upton Folk Festival](https://uptonfolk.org/), Upton-upon-Severn
-{% endevent %}
-
-{% anchor 'book-us' %}
 ## Book us for your event
 
 We are happy to come and dance at local pubs, events and festivals during the summer season (roughly April until September.) We're lucky to have a fair number of dancers and musicians but it's always best to get us booked in early!

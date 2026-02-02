@@ -1,0 +1,9 @@
+<calendar-event
+    :date="item.start_date"
+    :time="item.start_time"
+    :note="item.location"
+    :title="item.name"
+    :description="decodeHTML(item.description)"
+    webc:for="item of $data.events"
+>
+</calendar-event>

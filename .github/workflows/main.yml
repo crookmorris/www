@@ -19,34 +19,17 @@ jobs:
         run: npm i
 
       - name: Run build
+        env:
+            MORRISBOOK_TOKEN: ${{ secrets.MORRISBOOK_TOKEN }}
         run: npx @11ty/eleventy
 
-      - name: Copy to Hostinger
+      - name: Copy to hosting
         uses: appleboy/scp-action@v1
         with:
-          host: ${{ secrets.HOSTINGER_HOST }}
-          username: ${{ secrets.HOSTINGER_USER }}
-          key: ${{ secrets.HOSTINGER_PRIVATE_KEY }}
-          port: ${{ secrets.HOSTINGER_PORT }}
+          host: ${{ secrets.SCP_HOST }}
+          username: ${{ secrets.SCP_USER }}
+          key: ${{ secrets.SCP_KEY }}
           source: _site
-          target: incoming
-          rm: true
-
-      - name: Move replacement files into public_html
-        uses: appleboy/ssh-action@v1
-        with:
-          host: ${{ secrets.HOSTINGER_HOST }}
-          username: ${{ secrets.HOSTINGER_USER }}
-          key: ${{ secrets.HOSTINGER_PRIVATE_KEY }}
-          port: ${{ secrets.HOSTINGER_PORT }}
-          script: /home/u112729377/replace.sh
-
-      - name: Copy to drawk.cab
-        uses: appleboy/scp-action@v1
-        with:
-          host: ${{ secrets.DRAWK_CAB_HOST }}
-          username: www
-          key: ${{ secrets.DRAWK_CAB_PRIVATE_KEY }}
-          source: _site/*
-          target: /var/www/crookmorris
+          target: crookmorris-test
+          strip_components: 1
           rm: true

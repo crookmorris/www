@@ -13,20 +13,22 @@
         ?
     </div>
     <div class="venue">
-        <slot></slot>
+        <p class="title" @raw="title" webc:if="title"></p>
         <p class="note" @raw="note" webc:if="note"></p>
+        <p class="description" @raw="description" webc:if="description"></p>
     </div>
 </div>
 
 <script>
-    // Remove events that have already happened
     document.addEventListener("DOMContentLoaded", function() {
+        /*
         let today = new Date();
         this.querySelectorAll("calendar-event").forEach((e) => {
             if (today > new Date(e.getAttribute("date"))) {
                 e.parentElement.removeChild(e);
             };
         })
+        */
     });
 </script>
 
@@ -65,6 +67,10 @@
 
     calendar-event .date > * {
         padding: 0.1em;
+    }
+
+    calendar-event .title {
+        font-weight: bold;
     }
 
     calendar-event .venue {

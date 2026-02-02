@@ -1,6 +1,8 @@
 import pluginWebc from "@11ty/eleventy-plugin-webc";
 import implicitFigures from "markdown-it-image-figures";
 import videoEmbeds from "markdown-it-block-embed";
+import 'dotenv/config';
+import {decode} from "html-entities";
 
 export default function(eleventyConfig) {
   eleventyConfig.setInputDirectory("_src");
@@ -23,6 +25,12 @@ export default function(eleventyConfig) {
     }
   );
 
+  eleventyConfig.addShortcode("morrisbook-events",
+    function() {
+      return '\n\n<morrisbook-events>\n</morrisbook-events>\n\n';
+    }
+  );
+
   eleventyConfig.addShortcode("anchor",
     function(name) {
       return '<a name="'+name+'"></a>';
@@ -34,6 +42,8 @@ export default function(eleventyConfig) {
       return '<grid-list>\n\n'+content+'\n\n</grid-list>\n';
     }
   );
+
+  eleventyConfig.addJavaScriptFunction("decodeHTML", decode);
 
   eleventyConfig.addPairedShortcode("event",
     /*
