@@ -30,6 +30,6 @@ jobs:
           username: ${{ secrets.SCP_USER }}
           key: ${{ secrets.SCP_KEY }}
           source: _site
-          target: crookmorris-test
+          target: www/www.crookmorris.org.uk
           strip_components: 1
           rm: true
